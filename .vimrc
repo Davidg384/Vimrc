@@ -10,8 +10,9 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ervandew/supertab'
+Plugin 'tc50cal/vim-terminal'
 call vundle#end()            " required
-
+ 
 filetype plugin indent on    " required
 
 
@@ -28,7 +29,7 @@ set smartindent
 colorscheme dracula " molokai
 
 "NERDTree Settings
-map <C-o> :NERDTreeToggle<CR>
+map <C-t> :NERDTreeToggle<CR>
 let NERDTreeDirArrows=0
 let NERDTreeDirArrowExpandable='+' "Changes arrow to '+'
 let NERDTreeDirArrowCollapsible='~' "Changes arrow to '~'
@@ -36,7 +37,12 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Custom  Mappings for simple autocomplete on various brackets
+nnoremap <C-b> :TerminalVSplit bash<CR><ESC>
+nnoremap <C-o> :tabp<CR>
+nnoremap <C-p> :tabn<CR>
 inoremap {<CR> {<CR>}<C-o>O<tab>
-inoremap (<CR> ()
-inoremap <<CR> <><left>
-inoremap [<CR> []<left>
+inoremap ( ()<left>
+inoremap < <><left>
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap [ []<left>
