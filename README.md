@@ -25,19 +25,38 @@ My .vimrc file.
 * golden-ratio
 
 # How do I get this?
-Install vim and Vundle plugin manager.
 
-Create ~/.vimrc and copy contents of .vimrc into your .vimrc
+* Install vim.
 
-Open vim and run the command
+* Create .vim directory
 
-* :PluginInstall
+`mkdir ~/.vim`
 
-move 
+* Create bundle directory inside of .vim
 
-* ~/.vim/bundle/vim-colorschemes/colors to ~/.vim to for colorschemes.
+`mkdir ~/.vim/bundle`
 
-Make sure proper linters are installed for ALE plugin to work for your desired programming languages.
+* Install (Vundle plugin manager)[https://github.com/VundleVim/Vundle.vim].
+
+* Create .vimrc in home directory 
+
+`touch ~/.vimrc` and copy contents of my .vimrc into your .vimrc
+
+* Ctrl-c to copy, Ctrl-Shift-v to paste using vim.
+
+* Save and Exit
+
+`:wq`
+
+* Open vim and run the command
+
+`:PluginInstall`
+
+* To get colorschemes to work, run this in terminal
+
+`mv ~/.vim/bundle/vim-colorschemes/colors ~/.vim`
+
+* Make sure proper linters are installed for ALE plugin to work for your desired programming languages.
 
 # Key Bindings
 
