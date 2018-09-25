@@ -36,7 +36,7 @@ My .vimrc file.
 
 `mkdir ~/.vim/bundle`
 
-* Install (Vundle plugin manager)[https://github.com/VundleVim/Vundle.vim].
+* Install [Vundle plugin manager](https://github.com/VundleVim/Vundle.vim).
 
 * Create .vimrc in home directory 
 
