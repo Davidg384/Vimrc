@@ -9,25 +9,25 @@ A compilation of useful plugins and other vim settings packaged into a .vimrc fi
 
 ### Comprehensive List of Plugins
 
-* Vundle
+* [Vundle](https://github.com/VundleVim/Vundle.vim)
 
-* NERDTree
+* [NERDTree](https://github.com/scrooloose/nerdtree)
 
-* ALE
+* [ALE](https://github.com/w0rp/ale)
 
-* vim-colorschemes
+* [vim-colorschemes](https://github.com/flazz/vim-colorschemes)
 
-* vim-airline
+* [vim-airline](https://github.com/vim-airline/vim-airline)
 
-* vim-airline-themes
+* [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 
-* supertab
+* [supertab](https://github.com/ervandew/supertab)
 
-* vim-terminal
+* [vim-terminal](https://github.com/tc50cal/vim-terminal)
 
-* numbers
+* [numbers](https://github.com/myusuf3/numbers.vim)
 
-* golden-ratio
+* [golden-ratio](https://github.com/roman/golden-ratio)
 
 ### How do I get this?
 
