@@ -86,4 +86,4 @@ A compilation of useful plugins and other vim settings packaged into a .vimrc fi
  
 &nbsp;&nbsp;&nbsp;&nbsp;_
 
-} &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;This one is really helpful when defining functions in languages such as C++ and Javascript.
+} &nbsp;&nbsp;&nbsp;&nbsp;This one is really helpful when defining functions in languages such as C++ and Javascript.
