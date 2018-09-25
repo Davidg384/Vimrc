@@ -1,6 +1,6 @@
 # Davidgon100's Vimrc
 
-My .vimrc file.
+A compilation of useful plugins and other vim settings packaged into a .vimrc file. Vundle is used as the plugin manager.
 
 # Comprehensive List of Plugins
 
@@ -86,4 +86,4 @@ My .vimrc file.
  
 &nbsp;&nbsp;&nbsp;&nbsp;_
 
-}
+} &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&nbsp;This one is really helpful when defining functions in languages such as C++ and Javascript.
