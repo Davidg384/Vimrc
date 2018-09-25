@@ -2,6 +2,8 @@
 
 A compilation of useful plugins and other vim settings packaged into a .vimrc file. Vundle is used as the plugin manager.
 
+![All Text](/Vimrc/blob/master/Screenshot/1.png)"Optional Title"
+
 ## Comprehensive List of Plugins
 
 * Vundle
