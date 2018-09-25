@@ -2,10 +2,12 @@
 
 A compilation of useful plugins and other vim settings packaged into a .vimrc file. Vundle is used as the plugin manager.
 
-![All Text](/Screenshot/1.png)"Optional Title"
+## Screenshots
+![All Text](/Screenshot/1.png?raw=true)
 
-![All Text](/Screenshot/2.png)"Optional Title"
-## Comprehensive List of Plugins
+![All Text](/Screenshot/2.png?raw=true)
+
+### Comprehensive List of Plugins
 
 * Vundle
 
@@ -27,7 +29,7 @@ A compilation of useful plugins and other vim settings packaged into a .vimrc fi
 
 * golden-ratio
 
-## How do I get this?
+### How do I get this?
 
 * Install vim.
 
@@ -61,7 +63,7 @@ A compilation of useful plugins and other vim settings packaged into a .vimrc fi
 
 * Make sure proper linters are installed for ALE plugin to work for your desired programming languages.
 
-## Key Bindings
+### Key Bindings
 
 * Ctrl-n NERDTree
 
@@ -73,7 +75,7 @@ A compilation of useful plugins and other vim settings packaged into a .vimrc fi
 
 * Ctrl-p next tab
 
-## Other Quirks
+### Other Quirks
 
 * typing " autocompletes to "_" where _ is the cursor
 
