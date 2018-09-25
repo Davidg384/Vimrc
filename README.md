@@ -62,8 +62,9 @@ Make sure proper linters are installed for ALE plugin to work for your desired p
 * typing [ autocompletes to [_] where _ is the cursor
 
 * typing { followed by Return\Enter autocompletes to 
+
 {
  
- _
+   _
 
 }
