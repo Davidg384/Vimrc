@@ -1,4 +1,4 @@
-# Davidgon100's Vimrc
+# Davidg384's Vimrc
 
 A compilation of useful plugins and other vim settings packaged into a .vimrc file. Vundle is used as the plugin manager.
 
