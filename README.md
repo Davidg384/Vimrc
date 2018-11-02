@@ -25,8 +25,6 @@ A compilation of useful plugins and other vim settings packaged into a .vimrc fi
 
 * [vim-terminal](https://github.com/tc50cal/vim-terminal)
 
-* [numbers](https://github.com/myusuf3/numbers.vim)
-
 * [golden-ratio](https://github.com/roman/golden-ratio)
 
 ### How do I get this?
@@ -67,8 +65,6 @@ A compilation of useful plugins and other vim settings packaged into a .vimrc fi
 
 * Ctrl-n NERDTree
 
-* Ctrl-b Terminal in new tab
-
 * Ctrl-v Terminal split with current tab
 
 * Ctrl-o previous tab
@@ -77,18 +73,18 @@ A compilation of useful plugins and other vim settings packaged into a .vimrc fi
 
 ### Other Quirks
 
-* typing " autocompletes to "_" where _ is the cursor
+* typing "<enter> autocompletes to "_" where _ is the cursor
 
-* typing ' autocompletes to '_' where _ is the cursor
+* typing '<enter> autocompletes to '_' where _ is the cursor
 
-* typing ( autocompletes to (_) where _ is the cursor
+* typing (<enter> autocompletes to (_) where _ is the cursor
 
-* typing [ autocompletes to [_] where _ is the cursor
+* typing [<enter> autocompletes to [_] where _ is the cursor
 
-* typing { followed by Return\Enter autocompletes to 
-
+* typing {<enter> autocompletes to 
+ 
 {
  
 &nbsp;&nbsp;&nbsp;&nbsp;_
 
-} &nbsp;&nbsp;&nbsp;&nbsp;This one is really helpful when defining functions in languages such as C++ and Javascript.
+}
