@@ -24,8 +24,8 @@ filetype plugin indent on
 syntax on
 set number
 set smartindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 let laststatus=2
 
@@ -61,8 +61,8 @@ nnoremap <C-v> :TerminalVSplit bash<CR>
 nnoremap <C-o> :tabp<CR>
 nnoremap <C-p> :tabn<CR>
 " Autocompletion "
-inoremap {<CR> {<CR><CR>}<up><tab>
-inoremap (<CR> ()<left>
-inoremap "<CR> ""<left>
-inoremap '<CR> ''<left>
-inoremap [<CR> []<left>
+inoremap { {}<left>
+inoremap ( ()<left>
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap [ []<left>
